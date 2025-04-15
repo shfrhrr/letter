@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>letters</title>
+  <style>
+    body {
+      font-family: "Georgia", serif;
+      background-color: #bbdefb; /* biru muda */
+      padding: 40px;
+      max-width: 600px;
+      margin: auto;
+      text-align: center;
+      color: #333;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #2196f3;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #1976d2;
+    }
+    #surat {
+      display: none;
+      margin-top: 30px;
+      text-align: left;
+      border: 2px solid #90caf9;
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #90caf9;
+    }
+    h1 {
+      color: #0d47a1;
+    }
+    .tanda-tangan {
+      margin-top: 40px;
+      text-align: right;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <h1>Hai!</h1>
+  <p>this is a reminder for u, yeahh a 'reminder'</p>
+  <button onclick="tampilkanSurat()">click hereee</button>
+
+  <div id="surat">
+    <p>anyway, how's ur days?</p>
+    <p>
+      i hope you're doing fine. I believe, you did so well today and don't ever forget to thank yourself for that
+    </p>
+    <p>
+        you know, life can be so hard sometimes, and it's okay to not to be okay. trust me, better days will come and i hope even in the midst of every pain, difficulity and chaos you are always commiting yourself to be gentle and more kind with ur heart.
+
+    </p> i know you're doing ur best and trying ur hardest and im here to tell u that you're doing better than u think u are. im sooo proud of u. keep going, you've got this!
+    <p class="tanda-tangan">
+      With love,<br>
+      [Shafira]
+    </p>
+  </div>
+
+  <script>
+    function tampilkanSurat() {
+      document.getElementById("surat").style.display = "block";
+    }
+  </script>
+</body>
+</html>
